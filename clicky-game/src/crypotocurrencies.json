@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Bitcoin",
+    "image": "btc.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Ethereum",
+    "image": "eth.png"
+  },
+  {
+    "id": 3,
+    "name": "Ripple",
+    "image": "xrp.png"
+  },
+  {
+    "id": 4,
+    "name": "EOS",
+    "image": "eos.png"
+  },
+  {
+    "id": 5,
+    "name": "Litecoin",
+    "image": "ltc.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Stellar",
+    "image": "xlm.png"
+  },
+  {
+    "id": 7,
+    "name": "TRON",
+    "image": "trx.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Cardano",
+    "image": "ada.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Monero",
+    "image": "xmr.png"
+  },
+  {
+    "id": 10,
+    "name": "IOTA",
+    "image": "miota.png"
+  },
+  {
+    "id": 11,
+    "name": "NEO",
+    "image": "neo.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Dogecoin",
+    "image": "doge.png"
+  }  
+]
