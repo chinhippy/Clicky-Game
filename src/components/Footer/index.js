@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-function CryptoCard(props) {
+const Footer = (props) =>  {
   return (
     <div>
     placeholder
@@ -9,4 +9,4 @@ function CryptoCard(props) {
   )
 }
 
-export default CryptoCard
+export default Footer

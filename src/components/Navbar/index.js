@@ -1,7 +1,7 @@
 import React from 'react'
 import './style.css'
 
-function Navbar(props) {
+const Navbar = (props) => {
   return (
     <div>
       placeholder
