@@ -1,0 +1,10 @@
+.card {
+  width: 231px;
+  height: 231px;
+  margin: 15px 45px;
+  box-shadow: 0 3px 6px #999, 0 3px 6px #999;
+  border: 3px solid lightseagreen;
+}
+.wrapper{
+  background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.pixelstalk.net%2Fwp-content%2Fuploads%2F2016%2F06%2FFree-Download-Hello-Kitty-Backgrounds.png&imgrefurl=https%3A%2F%2Fwww.pixelstalk.net%2Fhello-kitty-wallpaper-hd%2F&docid=sXXkPQ-zZto9IM&tbnid=jddlmhPhewSBqM%3A&vet=10ahUKEwieouamm-XgAhUBVK0KHQNEA90QMwikASgsMCw..i&w=2560&h=1600&bih=593&biw=1266&q=sanrio%20wallpaper&ved=0ahUKEwieouamm-XgAhUBVK0KHQNEA90QMwikASgsMCw&iact=mrc&uact=8");
+}

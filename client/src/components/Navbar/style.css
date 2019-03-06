@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+   
+
+.navbar{
+    background-color: lightgoldenrodyellow;
+}
+.answer {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 55px;
+    font-weight: 200;
+    color: lightskyblue
+}
+
+.score {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 40px;
+    font-weight: 200;
+    color:lightskyblue
+} 
