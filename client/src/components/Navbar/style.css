@@ -1,19 +1,38 @@
-@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
-   
+@import url('https://fonts.googleapis.com/css?family=Orbitron');
 
-.navbar{
-    background-color: lightgoldenrodyellow;
-}
-.answer {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 55px;
-    font-weight: 200;
-    color: lightskyblue
-}
-
-.score {
-    font-family: 'Luckiest Guy', cursive;
-    font-size: 40px;
-    font-weight: 200;
-    color:lightskyblue
-} 
+nav {
+    width: 100%;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: rgb(56, 56, 56);
+    height: auto;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  a {
+    color: #8a825f;
+  }
+  
+  a:hover {
+    color: #8a825f;
+    text-decoration: none;
+  }
+  
+  nav li {
+    display: inline-block;
+    padding: 26px 0;
+    width: 25%;
+    /* text-align: center; */
+  }
+  
+  ul {
+    /* padding-left: 0px; */
+    display: flex;
+    align-items: center;
+  }
+  
+  @media only screen and (max-width: 750px) {
+    #cur-sco, #top-sco {
+      font-size: 2rem;
+    }
+  }
