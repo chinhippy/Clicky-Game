@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import CryptoCard from "./components/CryptoCard";
-import Wrapper from './components/Wrapper'
+import Wrapper from "./components/Wrapper";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 import Container from "./Container";
@@ -15,7 +15,7 @@ function shuffleCryptos(array) {
     [array[i], array[j]] = [array[j], array[i]];
   }
   return array;
-};
+}
 
 class App extends Component {
   // Set this.state
@@ -24,7 +24,7 @@ class App extends Component {
     currentScore: 0,
     topScore: 0,
     rightWrong: "",
-    clicked: [],
+    clicked: []
   };
 
   handleClick = id => {
@@ -44,8 +44,7 @@ class App extends Component {
     });
     if (newScore >= this.state.topScore) {
       this.setState({ topScore: newScore });
-    }
-    else if (newScore === 12) {
+    } else if (newScore === 12) {
       this.setState({ rightWrong: "You win!" });
     }
     this.handleShuffle();
@@ -104,8 +103,6 @@ class App extends Component {
 
 export default App;
 
-
-
 // class App extends Component {
 //   state = {
 //     cryptocurrencies,
@@ -117,13 +114,13 @@ export default App;
 
 //   // When image card clicked, the cryptocurrency is taken out of the array
 //   imageClick = e => {
-        
+
 //     // if a cryptocurrency is clicked again, the game resets and the cards shuffled
 //     if (this.state.clickedCryptocurrencies.indexOf(e) === -1) {
 //       this.handleIncrement();
 //       this.setState({
 //         clickedCryptocurrencies: this.state.clickedCryptocurrencies.concat(id) }),
-     
+
 //     } else {
 //       this.handleReset();
 //     }
@@ -142,9 +139,8 @@ export default App;
 //         //     });
 //         //   }
 //         // }
-      
-//     }
 
+//     }
 
 //   render() {
 //     return (
